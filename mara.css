@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+html, body {
+background-color: lightyellow;
+width:100%;
+}
+
+
+
+.nav-link li {
+display: inline-block;
+float:left;
+text-align:center;
+text-decoration: none;
+font-family: 'PT Sans Caption', sans-serif;
+transition: .3s linear;
+}
+
+.nav-link a {
+  display: block;
+      padding: 0 10px;
+      line-height: normal;
+    letter-spacing: normal;
+    width:400px;
+    border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+}
+.nav-link a:hover {background: #ADC0CE}
+a {text-decoration: none;}
+
+
+.top-menu nav{
+ margin: 10px 60px;
+ position: relative;
+ background: #5A394E;
+}
+
+.nav-link ul {
+  display: inline-block;
+  margin-right: -3px;
+  margin: 0;
+    padding: 0;
+    width: 200%;
+  }
+
+
+.description {
+  font-size: 56px;
+  display:flex;
+  text-align: center;
+  width:70%;
+  margin-top: 70px;
+  font-weight:bold;
+    }
+
+  .description1 {
+    font-size: 25px;
+    text-align: center;
+    }
+
+.button {
+    display:flex;
+    justify-content: center;
+}
+
+    .gradient-button {
+      text-decoration: none;
+      display: block;
+      color: white;
+      padding: 20px 30px;
+      margin: 0 auto;
+      border-radius: 20px;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+      background-size: 200% auto;
+      box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+      transition: .5s;
+    }
+    .gradient-button:hover {
+      background-position: center;
+    }
+
+
+
+.myphoto{
+  width: 20%;
+  height: 20%;
+  float:right;
+  }
+
+.aboutteacherhead {
+font-size: 50px;
+font-weight:bold;
+text-align:center;
+margin-bottom:20px;
+width:70%;
+margin-top: 70px;
+}
+
+.aboutteacher {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&subset=cyrillic');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+.contacts3{
+  margin-left: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main{
+  font-family: montserrat, arial, verdana;
+    width: 100%;
+  overflow-x: hidden;
+    margin:0 auto;
+  margin-top: 30px;
+  }
+
+
+#titlesur{
+  text-transform: uppercase;
+     margin: 30px;
+     line-height: 1;
+     color: #7B1FA2;
+     font-size: 20px;
+    font-weight: 400;
+    text-align: center !important;
+    display:flex;
+
+}
+
+#submit{
+  background:#9F2AD0;
+  float: left;
+  margin: 18px auto 10px;
+  padding: 5px;
+  }
+
+.fa {
+  color: rgb(226, 168, 16);
+  font-size: 19px;
+  position: relative;
+  left: -2px;
+}
+
+div{
+  float:center;
+  text-indent: 20px;
+}
+
+ #name-label, #email-label, #number-label, #dropdown {
+      display: block;
+      height: calc(2.25rem + 2px);
+      padding: 0.375rem 0.75rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      width: 300px;
+      border: 1px solid #bdbdbd;
+      border-radius: 0.25rem;
+      text-indent: 50%;
+      margin-left: 20px;
+      }
+.role1 #comment, #checkbox-choice, #radio-choice {
+  height: calc(2.25rem + 2px);
+      padding: 0.375rem 0.75rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: lightyellow;
+      margin-left: 20px;
+        }
+
+
+
+.site-footer {
+  min-width: 550px;
+  background-color: #847462;
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
